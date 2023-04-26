@@ -1,0 +1,23 @@
+.titreBleu {
+    color:blue;
+}
+.titreRouge {
+    color:red;
+}
+
+.backgroundColorRed{
+    background-color:red;
+}
+.backgroundColorBlue{
+    background-color:blue;
+    color:white;
+    border : 2px solid black;
+    padding: 20px 5px 10px 15px;
+}
+
+.backgroundColorGreen{
+    background-color:green;
+    color:white;
+    border : 2px solid black;
+    padding: 20px 5px 10px 15px;
+}

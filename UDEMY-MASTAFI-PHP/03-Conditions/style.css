@@ -1,0 +1,30 @@
+body {
+    font-size: 22px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+form input {
+    margin: 20px 0;
+}
+form input[name="data"] {
+    width: 50px;
+}
+form input[name="submit"] {
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+form input[name="dataCheck"] {
+    width: 20px;
+    height: 20px;
+    /* margin: 10px auto; */
+    /* font-size: 20px; */
+}

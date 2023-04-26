@@ -1,0 +1,35 @@
+Définition d'une fonction :
+une fonction c'est bloc de code qui peut être utilisé et réutilisé à plusieurs endroits dans un programme.
+
+Pour appelé une fonction, il faut l'écrire par son nom suivi des () avec les paramètre à l'intérieur - idem JS
+
+On peut intégrer une fonction dans une variable au moment de l'appel exemple ligne 36 - à voir 
+
+Lors d'un test d'une donnée, il faut bien bien la tester le type et la valeur avec le triple = (===) 
+
+Constante : par convention les constantes s'écrivent en majuscules
+ex : define("SEPARATEUR", "+");
+
+TABLEAUX
+On peut déclarer un tableau de 2 manières :
+$tableau = [];
+$tableau = Array();
+
+TABLEAU Associatif / Numéroté
+Cliquez sur le lien TABLEAUX pour voir la différence entre un tableau numérité et associatif
+
+La boucle for ne fonctionne pas pour un tableau associatif/numéroté
+
+Pour parcourir un Tableau Associatif/Numéroté -> boucle foreach
+Pour parcourir un tableau associatif/numéroté et afficher les valeurs les unes après les autres, nous sommes obligés d'utiliser une boucle foreach qui est une boucle créée spécialement pour les tableaux.
+
+Pour afficher un tableau normal / associatif / numéroté on peut utiliser les fonctions pint_r() ou var_dump() comme ceci :
+echo "<pre>";
+print_r($joueur2);
+echo "</pre>";
+les balises <pre></pre> rendent le résultat plus lisible
+
+TABLEAU Associatif Multi Dimension
+
+Attention au : Warning: Array to string conversion in /Applications/MAMP/htdocs/...
+Pour palier à cette erreur, voir comment la fonction a été modifiée avec la boucle foreach  et surtout les commentaires

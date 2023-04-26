@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+table {
+    width: 700px;
+    min-height: 300px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+caption {
+    font-size: 24px;
+    font-weight: 600;
+}
+table,
+td {
+    border: 1px solid black;
+    height: 55px;
+}
+td {
+    padding-left: 10px;
+}
+.left {
+    text-align: center;
+    width: 150px;
+}

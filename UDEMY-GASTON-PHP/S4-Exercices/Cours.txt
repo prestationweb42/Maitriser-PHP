@@ -1,0 +1,6 @@
+Exercice 2 : si une variable en php n'est pas définie, par exemple à l'ouverture d'une page, il faut mettre cette variable dans un if avec isset et tester si elle présente.
+De cette manière, elle ne fera pas d'erreur si elle n'est pas présente !!!! 
+
+Exercice 3 : pour différiencier plusieurs checkbox, il leur donner le même nom, ainsi in n'est pas possible de les cocher toutes en même temps !!!!
+
+Exercice 4 : l'idée est de garder une valeur en mémoire même pendant les changement de page. Penser à supprimer le cookie de session pour voir le changement de variable et changer de page.
